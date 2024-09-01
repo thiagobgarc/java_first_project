@@ -25,13 +25,14 @@ public class main {
       return; // quit program early
     }
 
-    boolean notFound = true;
+    // Original piece of error handling to incluse inside switch statement
+    /* boolean notFound = true;
     for (int numbers : programNumbers) {
       if (chooseLanguages == numbers) {
         notFound = false;
         break;
       }
-    }
+    }*/ // 
 
         switch (chooseLanguages) {
       case 1: System.out.println("That is not mine :/ ");
